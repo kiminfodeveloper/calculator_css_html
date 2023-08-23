@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #000;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  margin-top: 5em;
+  height: 400px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 1em;
+}
+
+.container-visor {
+  width: 250px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  background-color: #148148;
+  border-radius: 1em;
+  font-size: 16px;
+  text-align: right;
+  justify-content: center;
+}
+
+.container-visor p {
+  margin: 0;
+  margin-top: 8px;
+  margin-right: 1em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.operator {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.operator button {
+  margin: 0.5em 0.5em;
+  width: 50px;
+  border: none;
+  height: 40px;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.operator button:hover {
+  background-color: #dbdbdb;
+}
+
+.clean {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.clean button {
+  margin: 0.5em 0.5em;
+  width: 75px;
+  border: none;
+  height: 40px;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.clean button:hover {
+  background-color: #dbdbdb;
+}
+
+.last-numbers {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.last-numbers button {
+  margin: 0.5em 0.5em;
+  width: 75px;
+  border: none;
+  height: 40px;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.last-numbers button:hover {
+  background-color: #dbdbdb;
+}
+
+.middle-numbers {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.middle-numbers button {
+  margin: 0.5em 0.5em;
+  width: 75px;
+  border: none;
+  height: 40px;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.middle-numbers button:hover {
+  background-color: #dbdbdb;
+}
+
+.first-numbers {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.first-numbers button {
+  margin: 0.5em 0.5em;
+  width: 75px;
+  border: none;
+  height: 40px;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.first-numbers button:hover {
+  background-color: #dbdbdb;
+}
+
+.result-last {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.result-last button {
+  margin: 0.5em 0.5em;
+  width: 120px;
+  border: none;
+  height: 40px;
+  border-radius: 1em;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.result-last button:hover {
+  background-color: #dbdbdb;
+}
